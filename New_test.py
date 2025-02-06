@@ -7,8 +7,7 @@ from dash.dependencies import Input, Output
 import os
 
 # Créer l'instance Dash
-app = dash.Dash(__name__)
-
+app = dash.Dash(__name__, server=server)
 # Exposer l'objet `server` pour Gunicorn
 server = app.server
 
