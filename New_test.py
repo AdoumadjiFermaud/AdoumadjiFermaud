@@ -149,5 +149,6 @@ def update_graphs(selected_cause):
 
 
 # Configuration du port pour Railway
-port = int(os.environ.get("PORT", 5000))  # Railway définit automatiquement $PORT
-app.run(host="0.0.0.0", port=port)
+if __name__ == "__main__":
+    app.run(host='0.0.0.0', port=8080)
+
