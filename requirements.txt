@@ -1,0 +1,6 @@
+dash
+plotly
+pandas
+numpy
+openpyxl  # Pour lire les fichiers Excel
+gunicorn  # Nécessaire pour le déploiement sur certains services
